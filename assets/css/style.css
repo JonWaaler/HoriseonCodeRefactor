@@ -5,54 +5,58 @@
   margin: 0;
 }
 
+/* Colours background behind information cards */
 body {
   background-color: #d9dcd6;
 }
 
+/* HEADER*/
 header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   background-color: #2a607c;
-  color: #ffffff;
 }
 
+/* Changes text colour and font size in */
 header h1 {
   display: inline-block;
   font-size: 48px;
 }
 
-/* colours the seo in the company name a light grey */
-header h1 .seo {
-  color: #d9dcd6;
+/* colours the "seo" in the company name a light grey */
+.seo {
+  color: #d1d3cf;
 }
 
-/* This styles the navigation buttons*/
+/* This styles the navigation href links */
 header nav {
   padding-top: 15px;
   margin-right: 20px;
   float: right;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 20px;
+  
 }
 
-
-
+/* allows the  list of navigation links to be beside eachother */
 header nav ul li {
   display: inline-block;
   margin-left: 25px;
 }
 
+/* Used to style all <a href> links' text such as the navigation links*/
 a {
   color: #ffffff;
   text-decoration: none;
 }
 
+/* all the paragraphs on the page follow this font-size */
 p {
   font-size: 16px;
 }
 
-/* A.K.A jumbotron, this style the first big picture users see. */
+/* A.K.A jumbotron, this styles the first big picture users see. */
 .hero {
   height: 800px;
   width: 100%;
@@ -62,20 +66,44 @@ p {
   background-position: center;
 }
 
+/* Aligns main content cards 1 & 3 to the left*/
 .float-left {
   float: left;
   margin-right: 25px;
 }
 
+/* Aligns main content cards 2 to the right*/
 .float-right {
   float: right;
   margin-left: 25px;
 }
 
+/* This is used on the container that holds the .main-content-card <div> element */
 .content {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
+}
+
+/* Main Content Cards - these are used on the dividers that hold the headings, imgs & text */
+.main-content-card{
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+
+/* main content card headings styles*/
+.main-content-card h2{
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+/* main content card image styles*/
+.main-content-card img {
+  max-height: 200px;
 }
 
 /* right side card that lists benefits. This
@@ -98,39 +126,20 @@ tag to seperate from eachother. */
   color: #ffffff;
 }
 
-/* styles the small heading used for each benefit in the card. */
+/* styles the small heading used inside each .benefit-content division. */
 .benefit-content h3 {
   margin-bottom: 10px;
   text-align: center;
 }
 
-/* image styling */
+/* image styling for .benefit-content division */
 .benefit-content img {
   display: block;
   margin: 10px auto;
   max-width: 150px;
 }
 
-
-/* Main Content Cards */
-.main-content-card{
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
-.main-content-card h2{
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
-.main-content-card img {
-  max-height: 200px;
-}
-
+/* FOOTER */
 footer {
   padding: 30px;
   clear: both;
@@ -139,6 +148,7 @@ footer {
   text-align: center;
 }
 
+/* footer heading2 style*/
 footer h2 {
   font-size: 20px;
 }
