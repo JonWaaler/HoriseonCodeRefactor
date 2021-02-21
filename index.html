@@ -4,6 +4,15 @@
     <!-- Specifies character encoding -->
     <meta charset="UTF-8" />
 
+    <!-- Controls how an individual page is indexed -->
+    <meta name="robots" content="index,follow">
+
+    <!-- helps with seo to give indexers a description of the page -->
+    <meta
+      name="desc"
+      content="Horiseon is a company that professionally deals with: search engine optimization, Online Reputation Management and Social Media Marketing."
+    />
+
     <!-- Website title-->
     <title>
       Horiseon - SEO, Online Reputation Management and Social Media Marketing
@@ -35,13 +44,13 @@
       </nav>
     </header>
 
-    <!-- Jumbotron/intro section -->
+    <!-- Jumbotron/intro section. This is the first picture at the top -->
     <section class="hero"></section>
 
     <!-- Main content cards -->
     <section class="content">
       <!-- Search Engine Optimization-->
-      <div id="search-engine-optimization" class="search-engine-optimization">
+      <div id="search-engine-optimization" class="main-content-card">
         <img
           src="./assets/images/search-engine-optimization.jpg"
           class="float-left"
@@ -58,9 +67,7 @@
 
       <!-- Reputation Management-->
       <div
-        id="online-reputation-management"
-        class="online-reputation-management"
-      >
+        id="online-reputation-management" class="main-content-card">
         <img
           src="./assets/images/online-reputation-management.jpg"
           class="float-right"
@@ -77,7 +84,7 @@
       </div>
 
       <!-- Social Media Marketing-->
-      <div id="social-media-marketing" class="social-media-marketing">
+      <div id="social-media-marketing" class="main-content-card">
         <img
           src="./assets/images/social-media-marketing.jpg"
           class="float-left"
@@ -95,7 +102,8 @@
 
     <!-- Right hand card about Horiseon benefits -->
     <section class="benefits">
-      <div class="benefit-lead">
+      <!-- Benefit 1 -->
+      <div class="benefit-content">
         <h3>Lead Generation</h3>
         <img
           src="./assets/images/lead-generation.png"
@@ -106,7 +114,9 @@
           business, bringing customers directly to your website.
         </p>
       </div>
-      <div class="benefit-brand">
+
+      <!-- Benefit 2 -->
+      <div class="benefit-content">
         <h3>Brand Awareness</h3>
         <img
           src="./assets/images/brand-awareness.png"
@@ -117,7 +127,9 @@
           the search ranking and visibility for your business.
         </p>
       </div>
-      <div class="benefit-cost">
+
+      <!-- Benefit 3 -->
+      <div class="benefit-content">
         <h3>Cost Management</h3>
         <img
           src="./assets/images/cost-management.png"
