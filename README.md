@@ -10,7 +10,7 @@ A website that offers search engine optimization, online reputation management a
 ## Website
 https://jonwaaler.github.io/
 
-Screenshot of website
+### Screenshot of website
 ![Alt text](https://github.com/JonWaaler/JonWaaler.github.io/blob/main/assets/images/website-screenshot.PNG)
 
 ## Contribution
