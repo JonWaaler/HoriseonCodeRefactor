@@ -11,7 +11,7 @@ A website that offers search engine optimization, online reputation management a
 https://jonwaaler.github.io/
 
 Screenshot of website
-![Alt text](assets/images/website-screenshot.png)
+![Alt text](https://github.com/JonWaaler/JonWaaler.github.io/blob/main/assets/images/website-screenshot.PNG)
 
 ## Contribution
 Made with ❤️ by Jon Waaler ✌
