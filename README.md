@@ -6,11 +6,14 @@ This was a code refactoring assignment given to replicate common junior front-en
 
 ## Resources
 
+- [Accessibility](https://www.internetingishard.com/html-and-css/semantic-html/)
+
+- [Aria-labels](https://developers.google.com/web/fundamentals/accessibility/semantics-aria/aria-labels-and-relationships)
 - [MDN Accessibility](https://developer.mozilla.org/en-US/docs/Web/Accessibility)
 - [HTML semantic tag cheat sheet](https://learn-the-web.algonquindesign.ca/topics/html-semantics-cheat-sheet/)
 
-* [Naming Conventions for ids and classes](https://stackoverflow.com/questions/6028211/what-is-the-standard-naming-convention-for-html-css-ids-and-classes)
-* [Adding images in README.md files](https://stackoverflow.com/questions/14494747/how-to-add-images-to-readme-md-on-github)
+- [Naming Conventions for ids and classes](https://stackoverflow.com/questions/6028211/what-is-the-standard-naming-convention-for-html-css-ids-and-classes)
+- [Adding images in README.md files](https://stackoverflow.com/questions/14494747/how-to-add-images-to-readme-md-on-github)
 
 ## Built With
 

@@ -36,7 +36,6 @@ header nav {
   float: right;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 20px;
-  
 }
 
 /* allows the  list of navigation links to be beside eachother */
@@ -86,7 +85,7 @@ p {
 }
 
 /* Main Content Cards - these are used on the dividers that hold the headings, imgs & text */
-.main-content-card{
+.main-content-card {
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
@@ -96,7 +95,7 @@ p {
 }
 
 /* main content card headings styles*/
-.main-content-card h2{
+.main-content-card h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
