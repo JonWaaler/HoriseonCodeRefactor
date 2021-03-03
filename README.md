@@ -22,7 +22,7 @@ This was a code refactoring assignment given to replicate common junior front-en
 
 ## Website
 
-https://jonwaaler.github.io/
+https://jonwaaler.github.io/code-refactor-accessibility/
 
 ### Screenshot of website
 
