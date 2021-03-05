@@ -26,7 +26,7 @@ https://jonwaaler.github.io/code-refactor-accessibility/
 
 ### Screenshot of website
 
-![Alt text](https://github.com/JonWaaler/JonWaaler.github.io/blob/main/assets/images/website-screenshot.PNG)
+![Alt text](https://raw.githubusercontent.com/JonWaaler/code-refactor-accessibility/main/assets/images/website-screenshot.PNG)
 
 ## Contribution
 
